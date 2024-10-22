@@ -11,4 +11,5 @@ def CovidUpdate():
         toast=ToastNotifier()
         toast.show_toast("covid-19 updates",text,duration=20)
         time.sleep(3600)
-if __name__ == CovidUpdate()
+if __name__ == "__main__":
+    CovidUpdate()
